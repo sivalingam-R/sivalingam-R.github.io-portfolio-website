@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Full Stack Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+      <div class="avatar">FS</div>
+      <div class="info">
+        <h1>Sivalingam</h1>
+        <p>Full Stack Developer — React · Node · Cloud</p>
+      </div>
+    </div>
+    <nav class="nav">
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+      <a href="resume.pdf" download>Resume</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <h2>Sivalingam R</h2>
+        <p>I'm a full-stack developer focusing on building production-grade web applications — from user interfaces and APIs to deployment and observability.</p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary">View Projects</a>
+          <a href="resume.pdf" download class="btn outline">Download Resume</a>
+          <a href="#contact" class="contact-link">📧 sivalingam.r2026@gmail.com</a>
+        </div>
+      </div>
+
+      <div class="stats">
+        <img src="sivaimg.jpg" class="image"/>
+        <p></p>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <h3>Selected Projects</h3>
+      <p>Recent full-stack and production work.</p>
+      <div class="project-grid" id="projectList"></div>
+    </section>
+
+    <section id="skills" class="skills">
+      <h3>Skills & Tools</h3>
+      <div class="skills-grid" id="skillsList"></div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h3>Get in touch</h3>
+      <p>Open for freelance & full-time opportunities.</p>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h4>Contact Info</h4>
+          <p>Email: hello@yourdomain.com</p>
+          <p>Location: City, Country</p>
+          <div class="socials">
+            <a href="https://github.com/yourname" target="_blank">🐱 GitHub</a>
+            <a href="https://linkedin.com/in/yourname" target="_blank">💼 LinkedIn</a>
+          </div>
+        </div>
+
+        <form id="contactForm" class="contact-form">
+          <label>Name</label>
+          <input type="text" name="name" required />
+          <label>Email</label>
+          <input type="email" name="email" required />
+          <label>Message</label>
+          <textarea name="message" rows="5" required></textarea>
+          <button type="submit" class="btn primary">📩 Send</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      Built with ❤️ — Sivalingam• <a href="resume.pdf" download>Resume</a>
+    </footer>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
