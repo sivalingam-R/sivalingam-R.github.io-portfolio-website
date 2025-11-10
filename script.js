@@ -1,18 +1,18 @@
 // Project data
 const projects = [
   {
-    title: "TaskMaster — SaaS Task Manager",
-    desc: "Full-stack app with role-based auth, realtime updates, and Kanban board.",
-    tech: ["React", "Node.js", "Express", "PostgreSQL", "Socket.IO"],
-    repo: "https://github.com/yourname/taskmaster",
-    live: "https://taskmaster.example.com"
+    title: "ToDo-List app",
+    desc: "A simple web app to add, view, edit, and delete daily tasks.",
+    tech: ["Html", "Css", "JavaScript", "Bootsrap", "API"],
+    repo: "https://github.com/sivalingam-R/sivalingam-R.github.io-portfolio-website/tree/main",
+    live: "https://sivalingam-r.github.io/sivalingam-R.github.io-Todo-webapp/"
   },
   {
-    title: "ShopSwift — E-commerce PWA",
+    title: "Whether app",
     desc: "Headless commerce with Stripe payments, product search, and offline mode.",
-    tech: ["Next.js", "Stripe", "Prisma", "Redis"],
-    repo: "https://github.com/yourname/shopswift",
-    live: "https://shopswift.example.com"
+    tech: ["Html", "Css", "javaScript", "Bootstrap","API"],
+    repo: "https://github.com/sivalingam-R/sivalingam-R.github.io-whether-website",
+    live: "https://sivalingam-r.github.io/sivalingam-R.github.io-whether-website/"
   },
   {
     title: "LearnWave — Course Platform",
@@ -105,3 +105,4 @@ document.getElementById("contactForm").addEventListener("submit", async e => {
     button.disabled = false;
   }
 });
+
