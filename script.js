@@ -4,7 +4,7 @@ const projects = [
     title: "ToDo-List app",
     desc: "A simple web app to add, view, edit, and delete daily tasks.",
     tech: ["Html", "Css", "JavaScript", "Bootsrap", "API"],
-    repo: "https://github.com/sivalingam-R/sivalingam-R.github.io-portfolio-website/tree/main",
+    repo: "https://github.com/sivalingam-R/sivalingam-R.github.io-Todo-webapp",
     live: "https://sivalingam-r.github.io/sivalingam-R.github.io-Todo-webapp/"
   },
   {
@@ -105,4 +105,5 @@ document.getElementById("contactForm").addEventListener("submit", async e => {
     button.disabled = false;
   }
 });
+
 
