@@ -9,16 +9,16 @@ const projects = [
   },
   {
     title: "Whether app",
-    desc: "Headless commerce with Stripe payments, product search, and offline mode.",
+    desc: "weather website provides real-time and forecasted information about temperature, rainfall, wind, and atmospheric conditions for any location.",
     tech: ["Html", "Css", "javaScript", "Bootstrap","API"],
     repo: "https://github.com/sivalingam-R/sivalingam-R.github.io-whether-website",
     live: "https://sivalingam-r.github.io/sivalingam-R.github.io-whether-website/"
   },
   {
-    title: "LearnWave — Course Platform",
-    desc: "Course creation, video streaming, quizzes, and analytics dashboard.",
-    tech: ["React", "AWS S3", "GraphQL", "TypeScript"],
-    repo: "https://github.com/yourname/learnwave"
+    title: "Wikipedia Search site",
+    desc: "Wikipedia page is a user-editable online article that provides neutral, sourced information about a specific topic.",
+    tech: ["js", "Bootstrap", "Fetch API", "TypeScript"],
+    live: "https://sivalingam-r.github.io/Wikipidiea/"
   }
 ];
 
@@ -105,5 +105,6 @@ document.getElementById("contactForm").addEventListener("submit", async e => {
     button.disabled = false;
   }
 });
+
 
 
